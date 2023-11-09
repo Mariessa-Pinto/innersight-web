@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Insights.module.css'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import Link from 'next/link'
 
 
-export default function Home() {
+export default function Insights() {
   return (
     <>
       <Head>
@@ -19,26 +19,43 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <Header/>
-        
+     
         <div className={styles.top}>
         <div className={styles.leftcontent}>
-        <h1 className={styles.title}>Good Afternoon, John!</h1>
-        <h4 className={styles.subheader}>Your week so far</h4>
-
-        </div>
+        <h1 className={styles.title}>Your Week in Review</h1>
+      </div>
+    
+  
 
         <div className={styles.rightcontent}>
-        <p className={styles.description}>This week, you felt most content. We identified 3 journal entries where you mentioned you felt this way. Way to go! </p>
-        <p className={styles.description}>Here’s an overview of what affected your moods:</p>
+        <h2 className={styles.subheader}>Identified Entries</h2>
+        <p className={styles.description}>3 entries were identified where you felt content</p>
 
         <div className={styles.mood}>
           <div className={styles.background}>
-            <h2 className={styles.types}>Mood Boosters</h2>
+            <h2 className={styles.types}>Journal Title</h2>
+            <h4 className={styles.date}>October 30, 2023</h4>
+            <h4 className={styles.date}>Lorem ipsum dolor sit amet consectetur. 
+            Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst.</h4>
+
 
           </div>
 
           <div className={styles.background}>
-            <h2 className={styles.types}>Mood Downers</h2>
+          <h2 className={styles.types}>Journal Title</h2>
+          <h4 className={styles.date}>October 30, 2023</h4>
+          <h4 className={styles.date}>Lorem ipsum dolor sit amet consectetur. 
+            Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst.</h4>
+      
+
+          </div>
+
+          <div className={styles.background}>
+          <h2 className={styles.types}>Journal Title</h2>
+          <h4 className={styles.date}>October 30, 2023</h4>
+          <h4 className={styles.date}>Lorem ipsum dolor sit amet consectetur. 
+            Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst.</h4>
+      
 
           </div>
 
@@ -50,8 +67,10 @@ export default function Home() {
      
 
         </div>
+  
 
         <h3 className={styles.secondheader}>Reccommendations</h3>
+        <h4 className={styles.info}>Have a look at some recommendations that we suggest to keep up the emotion. </h4>
         <div className={styles.recs}>
           <div className={styles.activity}>
             <Image

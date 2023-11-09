@@ -1,0 +1,147 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 100%; 
+    overflow-x: hidden; 
+  
+  
+  }
+  
+  .body {
+    height:1550px;
+    margin: 0;
+  
+  
+  }
+  
+  
+  .leftcontent{
+    margin-left: 13rem;
+    margin-right: 13rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title{
+    font-family: var(--font-mono);
+    font-size: 50px;
+    text-wrap: nowrap;
+  }
+  
+  
+
+  
+  .top{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  
+  .rightcontent {
+    margin-right: 13rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18rem;
+    gap: 1rem;
+  }
+  
+  
+  .description {
+    font-size: 20px;
+    font-weight: 50;
+    font-family: var(--font-mono);
+  }
+  
+  .mood{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
+  }
+  
+  .background {
+    width: 460px;
+    height: 151px;
+    background-color:#F2F2FD;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    
+  
+  }
+
+  .subheader{
+    font-family: var(--font-mono);
+    font-size:30px;
+  }
+  
+  .types{
+   font-family: var(--font-mono);
+   font-size: 20px;
+   font-weight: 400;
+  }
+  
+  
+  .secondheader{
+    font-size:30px;
+    font-weight: 400;
+    margin-left: 10rem;
+    font-family: var(--font-mono);
+  }
+  
+  
+  .recs{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+   
+  }
+  
+  .activity{
+    height: 368px;
+    width: 291px;
+    background-color:#F2F2FD;
+    border-radius: 5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .info{
+    font-family: var(--font-mono);
+    font-size:18px;
+    font-weight: 50;
+    margin-left: 10rem;
+  }
+  
+  
+  .title2{
+    font-family: var(--font-mono);
+    font-size: 22;
+    font-weight: 400;
+  }
+  
+  
+  .paragraph{
+    font-family: var(--font-mono);
+    font-size: 15px;
+    font-weight: 50;
+  
+  }
+  
+  .date{
+    font-family: var(--font-mono);
+    font-size: 15px;
+    font-weight: 50;
+  }
+  
+  

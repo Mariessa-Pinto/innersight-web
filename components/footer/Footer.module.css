@@ -1,0 +1,54 @@
+.main{
+    width: 100%;
+    height: 280px;
+    background-color: #F2F2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 12px;
+    padding-top: 2rem;
+    
+  
+    
+
+}
+
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 2rem;
+     gap: 3rem;
+    
+  
+    
+
+}
+.title {
+    font-family: 'lexend';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.link{
+    font-size: 14px;
+    font-weight: 100;
+}
+
+
+.socials{
+    display: flex;
+    flex-direction: row;
+   
+}
+
