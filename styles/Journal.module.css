@@ -1,0 +1,52 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 100%; 
+    overflow-x: hidden; 
+    padding-bottom: 10rem;
+ 
+  
+  }
+
+
+  .header{
+    font-family: var(--font-mono);
+    font-size:50px;
+    padding: 1rem;
+  }
+
+
+  .maincontent{
+    margin-left: 13rem;
+    margin-right: 13rem;
+  }
+
+
+  .journalcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+  }
+
+
+  .column{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  .subheaders{
+    font-family: var(--font-mono);
+    font-size:25px;
+  }
+
+  .description{
+    font-size: 15px;
+    font-weight: 50;
+    width: 230px;
+    font-family: var(--font-mono);
+  }

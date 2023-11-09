@@ -30,7 +30,7 @@ export default function Header() {
         <h3 className={styles.page}>Home</h3>
         </Link>
 
-        <Link href="journalPage">
+        <Link href="journalPages">
         <h3 className={styles.page}>Journal</h3>
         </Link>
 
