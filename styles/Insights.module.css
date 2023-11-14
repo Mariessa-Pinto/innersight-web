@@ -22,6 +22,9 @@
     margin-right: 13rem;
     display: flex;
     flex-direction: column;
+ 
+   
+    
   }
   
   .title{
@@ -44,8 +47,8 @@
     margin-right: 13rem;
     display: flex;
     flex-direction: column;
-    padding-top: 18rem;
     gap: 1rem;
+    padding-top: 1rem;
   }
   
   

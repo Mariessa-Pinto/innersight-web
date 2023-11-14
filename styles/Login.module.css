@@ -1,0 +1,47 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 1440px;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    padding-bottom: 10rem;
+ 
+  
+  }
+
+
+  .maincontent{
+    display: flex;
+    flex-direction: row;
+    height: 1024px;
+ 
+
+  }
+
+
+  .header {
+    font-family: var(--font-mono);
+    font-size: 34px;
+    font-weight: 400;
+    
+  }
+
+  .leftcontent{
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .rightcontent{
+   position: absolute;
+   right: 0;
+
+
+  }
+
+  .panda{
+    height: 100%;
+    width: 50%;
+  }

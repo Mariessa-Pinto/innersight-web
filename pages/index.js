@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import Link from 'next/link'
+import DoughnutChart from '../components/doughnutChart'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <div className={styles.leftcontent}>
         <h1 className={styles.title}>Good Afternoon, John!</h1>
         <h4 className={styles.subheader}>Your week so far</h4>
+        <DoughnutChart/>
 
         </div>
 
