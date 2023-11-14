@@ -38,6 +38,9 @@ export default function Header() {
         <Link href="insights">
         <h3 className={styles.page}>Insights</h3>
         </Link>
+        <Link href="logIn">
+        <h3 className={styles.page}>Log In</h3>
+        </Link>
 
         
 

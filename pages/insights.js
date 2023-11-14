@@ -4,6 +4,8 @@ import styles from '@/styles/Insights.module.css'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import Link from 'next/link'
+import JournalEntry from '../components/entries'
+import DoughnutChart from '../components/doughnutChart'
 
 
 export default function Insights() {
@@ -23,7 +25,10 @@ export default function Insights() {
         <div className={styles.top}>
         <div className={styles.leftcontent}>
         <h1 className={styles.title}>Your Week in Review</h1>
-      </div>
+        <DoughnutChart/>
+       </div>
+     
+   
     
   
 
@@ -32,32 +37,13 @@ export default function Insights() {
         <p className={styles.description}>3 entries were identified where you felt content</p>
 
         <div className={styles.mood}>
-          <div className={styles.background}>
-            <h2 className={styles.types}>Journal Title</h2>
-            <h4 className={styles.date}>October 30, 2023</h4>
-            <h4 className={styles.date}>Lorem ipsum dolor sit amet consectetur. 
-            Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst.</h4>
+    
+          <JournalEntry/>
+          <JournalEntry/>
+          <JournalEntry/>
+     
 
-
-          </div>
-
-          <div className={styles.background}>
-          <h2 className={styles.types}>Journal Title</h2>
-          <h4 className={styles.date}>October 30, 2023</h4>
-          <h4 className={styles.date}>Lorem ipsum dolor sit amet consectetur. 
-            Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst.</h4>
-      
-
-          </div>
-
-          <div className={styles.background}>
-          <h2 className={styles.types}>Journal Title</h2>
-          <h4 className={styles.date}>October 30, 2023</h4>
-          <h4 className={styles.date}>Lorem ipsum dolor sit amet consectetur. 
-            Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst.</h4>
-      
-
-          </div>
+    
 
 
         </div>
