@@ -14,14 +14,15 @@ export default function Header() {
         <div className={styles.main}>
         
         <div className={styles.logo}>
+        <Link href="/">
         <Image
          src='/icons/logo.png'
-         height={45}
+         height={50}
          width={160}
          alt='logo'
 
         />
-
+    </Link>
         </div>
 
 
