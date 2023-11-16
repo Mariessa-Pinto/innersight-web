@@ -1,0 +1,22 @@
+.background {
+    width: 900px;
+    height:110px;
+    background-color: #F2F2FD;
+    margin-top: 4rem;
+    padding: 1rem;
+  
+
+
+}
+
+.title{
+    font-family: var(--font-mono);
+    font-size: 20px;
+    
+}
+
+.prompt{
+    font-family: var(--font-mono);
+    font-size: 15px;
+    
+}

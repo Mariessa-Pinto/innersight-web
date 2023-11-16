@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+.header{
+    font-family: var(--font-mono);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.date{
+    font-family: var(--font-mono);
+    font-size: 15px;
+    font-weight: 50;
+    line-height: 1px;
+    
+  }
+
+
+.tagcontent {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+   
+}
+
+.entry {
+
+    width: 915px;
+    line-height: 2rem;
+}
+
+.writing{
+    font-family: var(--font-mono);
+    font-size:15px;
+    font-weight: 100;
+
+}
+
+
+.back {
+    font-family: var(--font-mono);
+    font-size: 14px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 1rem;
+}
