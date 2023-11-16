@@ -10,13 +10,11 @@
   
   }
 
-
   .header{
     font-family: var(--font-mono);
     font-size:50px;
     padding: 1rem;
   }
-
 
   .maincontent{
     margin-left: 13rem;
@@ -25,6 +23,10 @@
 
   .toggle {
     display: flex;
+  }
+
+  .togglelink{
+    text-decoration: none;
   }
   
   .page {
@@ -41,33 +43,11 @@
     font-weight: bold;
   }
 
-
   .journalcontent{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 1rem;
-  }
-
-
-  .column{
-    display: flex;
-    flex-direction: column;
-
-  }
-
-
-  .subheaders{
-    font-family: var(--font-mono);
-    font-size:25px;
-  }
-
-  .description{
-    font-size: 15px;
-    font-weight: 50;
-    width: 230px;
-    font-family: var(--font-mono);
-  }
-  .togglelink{
-    text-decoration: none;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
   }

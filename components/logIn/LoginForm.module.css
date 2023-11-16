@@ -1,0 +1,48 @@
+.loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50%;
+    text-align: left;
+    
+}
+
+
+.label{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-mono);
+    gap: 1rem;
+}
+
+.inputbox{
+    width: 358px;
+    height: 41px;
+    border-radius: 11px;
+}
+
+
+.header {
+    font-family: var(--font-mono);
+    font-size: 34px;
+    font-weight: 400;
+  
+    
+  }
+
+  .button{
+    background-color:#6164C3 ;
+    height: 50px;
+    width: 270px;
+    border-radius:11px;
+    color: white;
+    border: none;
+  }
+
+  .subtext{
+    font-family: var(--font-mono);
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
