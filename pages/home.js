@@ -7,6 +7,9 @@ import Link from 'next/link'
 import DoughnutChart from '../components/doughnutChart'
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
+import Hobbies from '../components/recommendations/hobbies'
+import SelfCare from '../components/recommendations/selfCare'
+import Sleeping from '../components/recommendations/sleeping'
 
 
 
@@ -60,52 +63,13 @@ export default function HomePage() {
 
         </div>
 
-        <h3 className={styles.secondheader}>Reccommendations</h3>
+        <h3 className={styles.secondheader}>Recommendations</h3>
         <div className={styles.recs}>
-          <div className={styles.activity}>
-            <Image
-            src='/mascots/sleeping.png'
-            height={121}
-            width={256}
-            alt='sleeping'
+          <Sleeping/>
+          <SelfCare/>
+          <Hobbies/>
 
-            />
-
-            <h3 className={styles.title2}>Sleeping Early</h3>
-            <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur. Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst. Lorem ipsum dolor sit amet. </p>
-
-
-          </div>
-
-          <div className={styles.activity}>
-
-          <Image
-            src='/mascots/selfcare.png'
-            height={121}
-            width={256}
-            alt='care'
-
-            />
-         <h3 className={styles.title2}>Self Care</h3>
-         <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur. Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst. Lorem ipsum dolor sit amet. </p>
-
-          </div>
-
-
-          <div className={styles.activity}>
-
-          <Image
-            src='/mascots/hobbies.png'
-            height={121}
-            width={256}
-            alt='hobbies'
-
-            />
-            <h3 className={styles.title2}>Engage in Hobbies</h3>
-            <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur. Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst. Lorem ipsum dolor sit amet. </p>
-
-
-          </div>
+      
 
         </div>
 
