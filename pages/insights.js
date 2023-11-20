@@ -6,6 +6,10 @@ import Header from '../components/header'
 import Link from 'next/link'
 import JournalEntry from '../components/entries'
 import DoughnutChart from '../components/doughnutChart'
+import Sleeping from '../components/recommendations/sleeping'
+import SelfCare from '../components/recommendations/selfCare'
+import Hobbies from '../components/recommendations/hobbies'
+
 
 
 export default function Insights() {
@@ -47,6 +51,7 @@ export default function Insights() {
 
 
         </div>
+     
       
 
         </div>
@@ -55,53 +60,15 @@ export default function Insights() {
         </div>
   
 
-        <h3 className={styles.secondheader}>Reccommendations</h3>
+        <h3 className={styles.secondheader}>Recommendations</h3>
         <h4 className={styles.info}>Have a look at some recommendations that we suggest to keep up the emotion. </h4>
         <div className={styles.recs}>
-          <div className={styles.activity}>
-            <Image
-            src='/mascots/sleeping.png'
-            height={121}
-            width={256}
-            alt='sleeping'
+          <Sleeping/>
+          <SelfCare/>
+          <Hobbies/>
+          
+     
 
-            />
-
-            <h3 className={styles.title2}>Sleeping Early</h3>
-            <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur. Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst. Lorem ipsum dolor sit amet. </p>
-
-
-          </div>
-
-          <div className={styles.activity}>
-
-          <Image
-            src='/mascots/selfcare.png'
-            height={121}
-            width={256}
-            alt='care'
-
-            />
-         <h3 className={styles.title2}>Self Care</h3>
-         <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur. Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst. Lorem ipsum dolor sit amet. </p>
-
-          </div>
-
-
-          <div className={styles.activity}>
-
-          <Image
-            src='/mascots/hobbies.png'
-            height={121}
-            width={256}
-            alt='hobbies'
-
-            />
-            <h3 className={styles.title2}>Engage in Hobbies</h3>
-            <p className={styles.paragraph}>Lorem ipsum dolor sit amet consectetur. Felis luctus amet condimentum nulla eu. Vel diam metus amet dictumst. Lorem ipsum dolor sit amet. </p>
-
-
-          </div>
 
         </div>
 

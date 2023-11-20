@@ -38,6 +38,17 @@
   
   }
 
+  .slideIn {
+    opacity: 0;
+    transform: translateX(-300px); /* Adjust the initial position as needed */
+    transition: opacity 0.5s, transform 1.5s;
+  }
+  
+  .visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
   
 
   

@@ -5,9 +5,14 @@ import Link from 'next/link'
 import Header from '../components/header'
 import Button from '../components/buttons'
 import LoginForm from '../components/logIn/loginForm'
+import { useState, useEffect } from 'react'
 
 
 export default function Login() {
+const [isVisible, setIsVisible] = useState(false);
+useEffect(() => {
+  setIsVisible(true);
+}, []);
 
 
 
@@ -33,7 +38,8 @@ export default function Login() {
    <LoginForm/>
     
    </div>
-    <Image
+    <Image  
+        className={`${styles.slideIn} ${isVisible && styles.visible}`}
         src='/backgroundImages/panda.png'
         alt='panda'
          width={720}
