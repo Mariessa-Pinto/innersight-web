@@ -11,17 +11,21 @@ export default function SleepingPop({ onClose }) {
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.popup} onClick={(e) => e.stopPropagation()}>
+        
       <div className={styles.closeButton} onClick={onClose}>
           X
         </div>
         <h1 className={styles.header}>Sleeping Early</h1>
+        <div>
     
         <Lottie
           animationData={animationData}
           loop={true}
           autoplay={true}
-          style={{ width: '600px', height: '400px',  margin: '0', padding: '0' }}
+          style={{ width: '600px', height: '300px'}}
         />
+
+</div>
                     <div className={styles.description}>
                 <p className={styles.paragraph}>Prioritizing early and sufficient sleep is a fundamental pillar of mental health. </p>
 

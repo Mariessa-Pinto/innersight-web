@@ -40,7 +40,7 @@
 
   .slideIn {
     opacity: 0;
-    transform: translateX(-300px); /* Adjust the initial position as needed */
+    transform: translateX(-300px); 
     transition: opacity 0.5s, transform 1.5s;
   }
   
@@ -48,6 +48,14 @@
     opacity: 1;
     transform: translateX(0);
   }
+
+  @media (max-width: 600px) {
+  
+
+    .slideIn {
+        display: none; /* Hide the image on smaller screens */
+    }
+}
 
   
 

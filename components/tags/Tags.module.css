@@ -1,0 +1,18 @@
+.tag{
+    width: 137px;
+    height: 30px;
+    background-color:#D5D7FF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+.tagtext{
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 50;
+}

@@ -46,16 +46,35 @@ export default function HomePage() {
         <div className={styles.mood}>
           <div className={styles.background}>
             <h2 className={styles.types}>Mood Boosters</h2>
+            <p className={styles.boosters}>hanging out with friends</p>
+            <p className={styles.boosters}>Working out</p>
+            <p className={styles.boosters}>Sleeping Early</p>
 
           </div>
 
           <div className={styles.background}>
             <h2 className={styles.types}>Mood Downers</h2>
+            <p className={styles.boosters}>Too much homework</p>
+            <p className={styles.boosters}>Waking up early</p>
+            <p className={styles.boosters}>Fight with a friend</p>
 
           </div>
-
+         
+     
+            
 
         </div>
+        <Link href='insights' className={styles.link}>
+          <h4>View AI Insights</h4>
+            <Image
+            src= '/icons/arrow2.png'
+            width={18}
+            height={10}
+            alt='arrow'
+            
+            />
+        
+            </Link>
       
 
         </div>

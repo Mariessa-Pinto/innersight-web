@@ -1,32 +1,25 @@
-.main{
+.main {
     height: 60px;
     width: 100%;
     background-color: #C5C7F7;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  
 }
 
-
-.logo{
-    margin-left: 13rem;
-   
+.logo {
+    margin-left: 2rem; /* Adjusted for smaller screens */
 }
 
-
-.links{
+.links {
     display: flex;
     flex-direction: row;
-    gap: 5rem;
-    margin-right:13rem;
+    gap: 2rem; /* Adjusted for smaller screens */
+    margin-right: 2rem; /* Adjusted for smaller screens */
     text-decoration: none;
-   
 }
 
-
-.page{
-  
+.page {
     font-family: var(--font-mono);
     color: black;
     font-size: 15px;
@@ -34,6 +27,25 @@
     text-decoration-line: none;
 }
 
-.link{
+.link {
     text-decoration: none;
+}
+
+/* Media query for screens with a maximum width of 600px */
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo{
+        display: none;
+    }
+    .links {
+        margin: 0;
+    }
+
+    .links {
+        gap: 1rem; /* Adjusted for smaller screens */
+    }
 }

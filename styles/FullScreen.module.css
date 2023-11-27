@@ -1,17 +1,24 @@
-
 .main {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    max-width: 100%; 
-    overflow-x: hidden; 
-    padding-bottom: 10rem;
-  
- 
-  
-  }
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow-x: hidden;
+  padding-bottom: 10rem;
+}
 
-  .maincontent{
-    margin-left: 13rem;
-    margin-right: 13rem;
+.maincontent {
+  margin-left: 1rem; /* Adjusted for better spacing on smaller screens */
+  margin-right: 1rem;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;/* Adjusted for better spacing on smaller screens */
+}
+
+/* Media query for screens with a maximum width of 600px (adjust as needed) */
+@media (max-width: 600px) {
+  .maincontent {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
   }
+}

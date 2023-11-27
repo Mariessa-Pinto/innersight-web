@@ -10,6 +10,7 @@ import FullEntry from '../components/fullEntry'
 
 
 
+
 export default function EntryFull() {
     return (
          <>
