@@ -50,4 +50,30 @@
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
+  
+  }
+
+  .tagcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  @media (max-width: 600px) {
+    .header {
+        font-size: 30px; /* Adjust the font size for smaller screens */
+    }
+
+    .maincontent {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .journalcontent {
+      flex-wrap: wrap;
+    }
+
+    .tagcontent{
+      display: none;
+    }
   }

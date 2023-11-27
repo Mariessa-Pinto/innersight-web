@@ -6,7 +6,7 @@ export default function Button({buttonText}) {
     return (
         <>
         <button className={styles.button}>
-        {buttonText}
+       <h4 className={styles.buttontext}>{buttonText}</h4>
         </button>
         </>
     )

@@ -20,7 +20,8 @@ export default function HobbiesPopup({ onClose }) {
           animationData={animationData}
           loop={true}
           autoplay={true}
-          style={{ width: '600px', height: '400px',  margin: '0', padding: '0' }}
+          height={100}
+          style={{ width: '600px', height: '300px' }}
         />
                     <div className={styles.description}>
                 <p className={styles.paragraph}>Engaging in hobbies offers many benefits for your overall well-being!</p>

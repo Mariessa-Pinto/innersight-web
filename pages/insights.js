@@ -42,9 +42,27 @@ export default function Insights() {
 
         <div className={styles.mood}>
     
-          <JournalEntry/>
-          <JournalEntry/>
-          <JournalEntry/>
+       
+
+
+<JournalEntry
+    title="Today was an amazing Day"
+    date="November 1, 2023"
+    content="I had the most incredible day today, filled with laughter, joy, and unexpected surprises."
+/>
+
+
+<JournalEntry
+    title="A Reflection on Life"
+    date="November 2, 2023"
+    content="Contemplated the beauty of life today and found solace in the simple moments that often go unnoticed."
+/>
+
+<JournalEntry
+    title="Adventures Await"
+    date="November 3, 2023"
+    content="Embarked on thrilling adventures, met new people, and discovered the world beyond my comfort zone."
+/>
      
 
     

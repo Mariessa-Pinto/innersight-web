@@ -42,7 +42,7 @@ useEffect(() => {
         className={`${styles.slideIn} ${isVisible && styles.visible}`}
         src='/backgroundImages/panda.png'
         alt='panda'
-         width={720}
+        width={720}
         height={970}
 
             />

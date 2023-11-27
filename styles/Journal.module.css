@@ -2,10 +2,13 @@
 .main {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: white;
     max-width: 100%; 
     overflow-x: hidden; 
     padding-bottom: 10rem;
+    overflow-y: hidden;
+    overflow-x: hidden;
  
   
   }
@@ -25,6 +28,7 @@
 
   .toggle {
     display: flex;
+    flex-wrap: nowrap;
   }
   
   .page {
@@ -47,6 +51,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 1rem;
+    flex-wrap: wrap;
   }
 
 
@@ -70,4 +75,15 @@
   }
   .togglelink{
     text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    .header {
+        font-size: 30px; /* Adjust the font size for smaller screens */
+    }
+
+    .maincontent {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
   }
