@@ -37,7 +37,6 @@ export default function JournalPage() {
           href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap"
         />
       </Head>
-
       <main className={styles.main}>
         <Header />
         <div className={styles.maincontent}>
@@ -61,40 +60,34 @@ export default function JournalPage() {
             </Link>
           </div>
           <hr />
-
           <div className={styles.journalcontent}>
             <div className={styles.columns} onClick={handleJournalClick}>
               <Image src="/journalCovers/green.png" height={260} width={200} alt="green" />
               <h2 className={styles.subheaders}>My Emotions</h2>
               <p className={styles.description}>Getting Ahold of my emotions</p>
             </div>
-
             <div className={styles.columns} onClick={handleJournalClick}>
               <Image src="/journalCovers/orange.png" height={260} width={200} alt="orange" />
               <h2 className={styles.subheaders}>All my vents</h2>
               <p className={styles.description}>Need someone to talk to</p>
             </div>
-
             <div className={styles.columns} onClick={handleJournalClick}>
               <Image src="/journalCovers/blue.png" height={260} width={200} alt="blue" />
               <h2 className={styles.subheaders}>Work Life</h2>
               <p className={styles.description}>All the pains and pluses of my job</p>
             </div>
           </div>
-
           <div className={styles.journalcontent}>
             <div className={styles.columns} onClick={handleJournalClick}>
               <Image src="/journalCovers/green.png" height={260} width={200} alt="green" />
               <h2 className={styles.subheaders}>Doodling</h2>
               <p className={styles.description}>Emotions I can't quite put into words</p>
             </div>
-
             <div className={styles.columns} onClick={handleJournalClick}>
               <Image src="/journalCovers/orange.png" height={260} width={200} alt="orange" />
               <h2 className={styles.subheaders}>All Thoughts</h2>
               <p className={styles.description}>All of my thoughts, good and bad</p>
             </div>
-
             <div className={styles.columns} onClick={handleJournalClick}>
               <Image src="/journalCovers/blue.png" height={260} width={200} alt="blue" />
               <h2 className={styles.subheaders}>My Secrets</h2>
@@ -102,12 +95,10 @@ export default function JournalPage() {
             </div>
           </div>
         </div>
-
         {isPasswordOverlayVisible && (
           <PasswordOverlay title="Journal Entry Password" onClose={handleClosePasswordOverlay} />
         )}
       </main>
-
       <Footer />
     </>
   );

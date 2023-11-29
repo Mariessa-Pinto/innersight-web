@@ -1,24 +1,18 @@
 .background {
-    width: 460px;
-    height: 151px;
-    background-color:#F2F2FD;
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    
-  
-  }
-
-
-  .types{
-    font-family: var(--font-mono);
-    font-size: 20px;
-    font-weight: 400;
-   }
-
-
-   .date{
-    font-family: var(--font-mono);
-    font-size: 15px;
-    font-weight: 50;
-  }
+  width: 460px;
+  height: 151px;
+  background-color: #F2F2FD;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.types {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 400;
+}
+.date {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 50;
+}

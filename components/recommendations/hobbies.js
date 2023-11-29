@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './SelfCare.module.css';
 import Image from 'next/image';
 import HobbiesPopup from '../recPopups/hobbiesPop';
@@ -20,16 +20,8 @@ export default function Hobbies() {
         <Image src='/mascots/hobbies.png' height={121} width={256} alt='hobby' />
         <h3 className={styles.title2}>Engage in Hobbies</h3>
         <p className={styles.paragraph}>Engaging in hobbies offers many benefits for your overall well-being!</p>
-          {isPopupOpen && <HobbiesPopup onClose={closePopup} />}
-  
+        {isPopupOpen && <HobbiesPopup onClose={closePopup} />}
       </div>
-  
-    
-  
- 
-  
-
-   
     </>
   );
 }

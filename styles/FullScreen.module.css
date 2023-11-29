@@ -5,17 +5,15 @@
   overflow-x: hidden;
   padding-bottom: 10rem;
 }
-
 .maincontent {
-  margin-left: 1rem; /* Adjusted for better spacing on smaller screens */
+  margin-left: 1rem;
   margin-right: 1rem;
   display: flex; 
   align-items: center;
   justify-content: center;
-  flex-direction: column;/* Adjusted for better spacing on smaller screens */
+  flex-direction: column;
 }
 
-/* Media query for screens with a maximum width of 600px (adjust as needed) */
 @media (max-width: 600px) {
   .maincontent {
       margin-left: 0.5rem;

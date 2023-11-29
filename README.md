@@ -1,4 +1,4 @@
-# InnerSight
+# InnerSight Web Supplment 
 
 ## By:
 - Anika Grewal

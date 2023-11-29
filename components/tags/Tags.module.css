@@ -6,11 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
-
 }
-
-
 .tagtext{
     font-family: var(--font-mono);
     font-size: 12px;

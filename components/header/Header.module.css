@@ -6,19 +6,16 @@
     flex-direction: row;
     justify-content: space-between;
 }
-
 .logo {
-    margin-left: 2rem; /* Adjusted for smaller screens */
+    margin-left: 2rem; 
 }
-
 .links {
     display: flex;
     flex-direction: row;
-    gap: 2rem; /* Adjusted for smaller screens */
-    margin-right: 2rem; /* Adjusted for smaller screens */
+    gap: 2rem; 
+    margin-right: 2rem; 
     text-decoration: none;
 }
-
 .page {
     font-family: var(--font-mono);
     color: black;
@@ -26,26 +23,22 @@
     font-weight: 100;
     text-decoration-line: none;
 }
-
 .link {
     text-decoration: none;
 }
 
-/* Media query for screens with a maximum width of 600px */
 @media (max-width: 600px) {
     .main {
         flex-direction: column;
         align-items: center;
     }
-
     .logo{
         display: none;
     }
     .links {
         margin: 0;
     }
-
     .links {
-        gap: 1rem; /* Adjusted for smaller screens */
+        gap: 1rem; 
     }
 }
