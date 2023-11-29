@@ -1,20 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '@/styles/FullScreen.module.css'
 import Footer from '../components/footer'
 import Header from '../components/header'
-import Link from 'next/link'
-import { useState } from 'react'
 import FullEntry from '../components/fullEntry'
 
-
-
-
-
 export default function EntryFull() {
-    return (
-         <>
-         <Head>
+  return (
+    <>
+      <Head>
         <title>InnerSight</title>
         <meta name="description" content="Innersight" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,15 +18,12 @@ export default function EntryFull() {
         />
       </Head>
       <main className={styles.main}>
-        <Header/>
+        <Header />
         <div className={styles.maincontent}>
-       
-        <FullEntry/>
+          <FullEntry />
         </div>
-
-
       </main>
-      <Footer/>
-        </>
-    )
+      <Footer />
+    </>
+  )
 }

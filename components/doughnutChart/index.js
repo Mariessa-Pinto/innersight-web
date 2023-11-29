@@ -62,66 +62,66 @@ export default function DoughnutChart() {
 //import { VictoryPie, VictoryLabel } from 'victory'
 
 //export default function DoughnutChart() {
-   // const [keyWords, setKeyWords] = useState([])
-   // const [data, setData] = useState([]);
-   // const [selectedSlice, setSelectedSlice] = useState(null);
+// const [keyWords, setKeyWords] = useState([])
+// const [data, setData] = useState([]);
+// const [selectedSlice, setSelectedSlice] = useState(null);
 
-    // Get keywords from localStorage and set them in useState in chart format
-    //const getData = () => {
-        //try {
-          //  const value = localStorage.getItem('statsKeywords');
-           // if (value !== null) {
-              //  const keyWordArray = value.split(",")
-               // setKeyWords(keyWordArray)
+// Get keywords from localStorage and set them in useState in chart format
+//const getData = () => {
+//try {
+//  const value = localStorage.getItem('statsKeywords');
+// if (value !== null) {
+//  const keyWordArray = value.split(",")
+// setKeyWords(keyWordArray)
 
-              //  const newData = keyWordArray.map(keyword => ({ y: 25, x: keyword }));
+//  const newData = keyWordArray.map(keyword => ({ y: 25, x: keyword }));
 
-                //setData(newData);
-               // console.log(data)
-          //  }
-       // } catch (e) {
-           // console.log("error!")
-      //  }
-   //};
+//setData(newData);
+// console.log(data)
+//  }
+// } catch (e) {
+// console.log("error!")
+//  }
+//};
 
-    // Run getData on page load
-   // useEffect(() => {
-      //  getData();
-   // }, []);
+// Run getData on page load
+// useEffect(() => {
+//  getData();
+// }, []);
 
-   // const colorScale = ["#96D1EA", "#F5E79D", "#9792C7", "#FFCD6C", "#FFA39F", "#91BD70"];
+// const colorScale = ["#96D1EA", "#F5E79D", "#9792C7", "#FFCD6C", "#FFA39F", "#91BD70"];
 
-    //const handleSliceClick = (event, props) => {
-       // if (selectedSlice === props.index) {
-            // Reset the selected slice if it's clicked again
-          //  setSelectedSlice(null);
-      //  } else {
-           // setSelectedSlice(props.index);
-     //  }
-   // };
+//const handleSliceClick = (event, props) => {
+// if (selectedSlice === props.index) {
+// Reset the selected slice if it's clicked again
+//  setSelectedSlice(null);
+//  } else {
+// setSelectedSlice(props.index);
+//  }
+// };
 
-   // return (
-       // <>
-          // <div style={styles.container}>
-               // <VictoryPie
-                 //   data={data}
-                  //  colorScale={colorScale}
-                 //  padAngle={1}
-                  //  innerRadius={40}
-                  //  radius={({ index }) => index === selectedSlice ? 170 : 150}
-                  //  width={350}
-                   // height={369}
-                   //labelComponent={<VictoryLabel />}
-                   // labelRadius={({ innerRadius }) => innerRadius + 65}
-                   // events={[{
-                       // target: "data",
-                       // eventHandlers: {
-                           //onPressIn: handleSliceClick,
-                       // },
-                   // }]}
-               // />
-            //</div>
-       // </>
-   // )
+// return (
+// <>
+// <div style={styles.container}>
+// <VictoryPie
+//   data={data}
+//  colorScale={colorScale}
+//  padAngle={1}
+//  innerRadius={40}
+//  radius={({ index }) => index === selectedSlice ? 170 : 150}
+//  width={350}
+// height={369}
+//labelComponent={<VictoryLabel />}
+// labelRadius={({ innerRadius }) => innerRadius + 65}
+// events={[{
+// target: "data",
+// eventHandlers: {
+//onPressIn: handleSliceClick,
+// },
+// }]}
+// />
+//</div>
+// </>
+// )
 //}
 //

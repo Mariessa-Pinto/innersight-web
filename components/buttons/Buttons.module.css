@@ -9,14 +9,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-  
 }
-
 .buttontext{
     font-family: var(--font-mono);
     font-size: 12px;
-    
-    
 }

@@ -1,6 +1,4 @@
-// PasswordOverlay.jsx
-
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './PasswordOverlay.module.css';
 import Image from 'next/image';
 import Button from '../buttons';
@@ -17,11 +15,10 @@ export default function PasswordOverlay({ title, onClose }) {
     <>
       {isPopupOpen && (
         <div className={styles.overlay}>
-       
           <div className={styles.popup}>
-          <div className={styles.closeButton} onClick={onClose}>
-          X
-        </div>
+            <div className={styles.closeButton} onClick={onClose}>
+              X
+            </div>
             <h2 className={styles.types}>{title}</h2>
             <p>This journal is password protected. Please enter the password associated to continue.</p>
             <div className={styles.journalsection}>

@@ -5,32 +5,27 @@
   max-width: 100%;
   overflow-x: hidden;
 }
-
 .leftcontent {
   margin-left: 5%;
   margin-right: 5%;
   display: flex;
   flex-direction: column;
 }
-
 .title {
   font-family: var(--font-mono);
   font-size: 2rem; 
   white-space: nowrap;
 }
-
 .subheader {
   font-family: var(--font-mono);
   font-size: 1.5rem; 
   font-weight: 200;
 }
-
 .top {
   display: flex;
   flex-direction: row; 
   flex-wrap: wrap; 
 }
-
 .rightcontent {
   margin-right: 5%;
   display: flex;
@@ -38,19 +33,16 @@
   padding-top: 6rem; 
   gap: 1rem;
 }
-
 .description {
   font-size: 1rem; 
   font-weight: 50;
   font-family: var(--font-mono);
 }
-
 .mood {
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
-
 .background {
   flex: 1; 
   max-width: 300px;
@@ -58,20 +50,17 @@
   border-radius: 10px;
   padding: 1rem;
 }
-
 .types {
   font-family: var(--font-mono);
   font-size: 1rem; 
   font-weight: 400;
 }
-
 .secondheader {
   font-size: 1.5rem; 
   font-weight: 400;
   margin-left: 5%;
   font-family: var(--font-mono);
 }
-
 .recs {
   display: flex;
   flex-direction: row;
@@ -81,7 +70,6 @@
   justify-content: center;
   padding-bottom: 2rem; 
 }
-
 .activity {
   width: 100%; 
   max-width: 300px;
@@ -93,13 +81,11 @@
   flex-direction: column;
   align-items: center;
 }
-
 .title2 {
   font-family: var(--font-mono);
   font-size: 1.2rem; 
   font-weight: 400;
 }
-
 .paragraph {
   font-family: var(--font-mono);
   font-size: 0.8rem; 

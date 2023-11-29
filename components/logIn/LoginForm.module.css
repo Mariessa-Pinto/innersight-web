@@ -3,33 +3,24 @@
   flex-direction: column;
   align-items: center;
   margin-top: 50%;
-  text-align: left;
-  
+  text-align: left; 
 }
-
-
 .label{
   display: flex;
   flex-direction: column;
   font-family: var(--font-mono);
   gap: 1rem;
 }
-
 .inputbox{
   width: 358px;
   height: 41px;
   border-radius: 11px;
 }
-
-
 .header {
   font-family: var(--font-mono);
   font-size: 34px;
-  font-weight: 400;
-
-  
+  font-weight: 400; 
 }
-
 .button{
   background-color:#6164C3 ;
   height: 50px;
@@ -38,7 +29,6 @@
   color: white;
   border: none;
 }
-
 .subtext{
   font-family: var(--font-mono);
   font-size: 15px;
@@ -46,22 +36,18 @@
   color: black;
 }
 
-
 @media (max-width: 600px) {
   .loginform {
       margin-top: 10%; /* Adjusted for smaller screens */
   }
-
   .inputbox {
       width: 100%;
       max-width: none; /* Remove max-width for smaller screens */
   }
-
   .button {
       width: 100%;
       max-width: none; /* Remove max-width for smaller screens */
   }
-
   .slideIn {
       display: none; /* Hide the image on smaller screens */
   }

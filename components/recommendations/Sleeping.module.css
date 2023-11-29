@@ -7,26 +7,18 @@
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  
+  align-items: center; 
 }
-
-
-
 .title2{
   font-family: var(--font-mono);
   font-size: 22;
   font-weight: 400;
 }
-
-
 .paragraph{
   font-family: var(--font-mono);
   font-size: 15px;
   font-weight: 50;
-
 }
-
 .popup{
   height: 604px;
   width: 550px;

@@ -4,23 +4,19 @@
     text-align: left;
     width: 915px;
     overflow-x: hidden;
-    padding: 1rem; /* Added padding for better spacing on smaller screens */
-
+    padding: 1rem; 
 }
-
 .header {
     font-family: var(--font-mono);
     font-size: 35px;
     font-weight: bold;
 }
-
 .date {
     font-family: var(--font-mono);
     font-size: 15px;
     font-weight: 50;
     line-height: 1px;
 }
-
 .tagcontent {
     display: flex;
     flex-direction: row;
@@ -33,27 +29,22 @@
     display: flex;
     align-items: center;
 }
-
-
 .entry {
-    width: 915px; /* Allow the element to be responsive */
+    width: 915px; 
     line-height: 2rem;
     display: flex;
     flex-wrap: wrap;
 }
-
 .writing {
     font-family: var(--font-mono);
     font-size: 15px;
     font-weight: 100;
     display: flex;
 }
-
 .back {
     font-family: var(--font-mono);
     font-size: 14px;
 }
-
 .link {
     text-decoration: none;
     color: black;
@@ -62,7 +53,6 @@
     align-items: baseline;
     gap: 1rem;
 }
-
 .AiButton {
     width: 180px;
     height: 35px;
@@ -75,45 +65,38 @@
     justify-content: center;
     align-items: center;
 }
-
 .buttontext{
     font-family: var(--font-mono);
     font-size: 12px;
 }
-/* Media query for screens with a maximum width of 600px (adjust as needed) */
+
+
 @media (max-width: 600px) {
     .main {
         padding: 0.5rem;
     }
-
     .header {
         font-size: 25px;
     }
-
     .date {
         font-size: 12px;
         display: none;
     }
-
     .tagcontent {
         flex-direction: column;
         gap: 5px;
         align-items: center;
     }
-
     .entry {
         max-width: 100%;
     }
-
     .writing {
         font-size: 14px;
         flex-wrap: wrap;
     }
-
     .back {
         font-size: 12px;
     }
-
     .link {
         flex-direction: column;
         gap: 0.5rem;
