@@ -2,7 +2,7 @@ import EntryFull from '../../pages/entryFull';
 import styles from './AllEntries.module.css';
 import Link from 'next/link';
 
-export default function AllEntries({ title, date, content, entryLink }) {
+export default function AllEntries({ title, date, content }) {
     return (
         <>
             <Link href="/entryFull"  className={styles.link}>
